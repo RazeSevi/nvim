@@ -1,10 +1,9 @@
-require("foxedb.packer")
-require("foxedb.set")
-require("foxedb.remap")
---require("foxedb.colorscheme")
+require("RazeSevi.packer")
+require("RazeSevi.set")
+require("RazeSevi.remap")
 
 local augroup = vim.api.nvim_create_augroup
-local foxedbGroup = augroup('F0xedb', {})
+local RazeSeviGroup = augroup('RazeSevi', {})
 
 local autocmd = vim.api.nvim_create_autocmd
 local yank_group = augroup('HighlightYank', {})
@@ -25,7 +24,7 @@ autocmd('TextYankPost', {
 })
 
 autocmd({"BufWritePre"}, {
-    group = foxedbGroup,
+    group = RazeSeviGroup,
     pattern = "*",
     command = [[%s/\s\+$//e]],
 })

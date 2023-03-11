@@ -5,7 +5,7 @@ Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
 ### Usefull Keybinds
 
 Here is a list of usefull keybindings in regards to my neovim config.
-Note `leader` in my default case is a space, this behavior can be changed by editing `lua/foxedb/remap.lua`
+Note `leader` in my default case is a space, this behavior can be changed by editing `lua/RazeSevi/remap.lua`
 
 #### Search
 
