@@ -26,6 +26,9 @@ keymap.set("n", "<leader>lp", ":LatexPreviewToggle<CR>")
 keymap.set("n", "<leader>l[", ":PrevLatexPreviewMode<CR>")
 keymap.set("n", "<leader>l]", ":NextLatexPreviewMode<CR>")
 
+-- LiveServer
+keymap.set("n", "<leader>pls", ":LiveServer start<CR>")
+keymap.set("n", "<leader>els", ":LiveServer stop<CR>")
 
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically

@@ -137,6 +137,11 @@ _G.packer_plugins = {
     path = "/Users/chris/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["live-server"] = {
+    loaded = true,
+    path = "/Users/chris/.local/share/nvim/site/pack/packer/start/live-server",
+    url = "https://github.com/manzeloth/live-server"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/chris/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -166,6 +171,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/chris/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/Users/chris/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/NvChad/nvim-colorizer.lua"
   },
   ["nvim-latex-previewer"] = {
     loaded = true,
